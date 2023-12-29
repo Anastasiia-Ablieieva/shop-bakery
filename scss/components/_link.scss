@@ -1,0 +1,10 @@
+.link {
+    color: var(--primary-light-color);
+    text-decoration: none;
+    transition: color var(--timing-function);
+}
+
+.link:hover,
+.link:focus {
+    color: var(--brand-normal-color);
+}

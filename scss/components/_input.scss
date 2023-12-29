@@ -1,0 +1,37 @@
+.input {
+    &__label {
+        position: absolute;
+        left: 42px;
+        top: 16px;
+    }
+
+    &__control {
+        padding: 16px 42px;    
+        width: 100%;
+        font-size: 16px;
+        line-height: 1.17;
+        border-radius: 8px;
+        border: 1px solid var(--secondary-dark-color); 
+        background-color: transparent;
+    }
+
+    &__control:hover,
+    &__control:focus {
+        color: var(--primary-dark-color);
+        border-color: var(--brand-normal-color);
+        outline: none;
+    }
+
+    &__control::placeholder {
+        color: var(--secondary-dark-color);
+        font-size: 16px;
+        line-height: 1.17;
+        color: var(--secondary-dark-color);
+    }
+
+    &__control:hover::placeholder,
+    &__control:focus::placeholder {
+        color: var(--primary-dark-color);
+    }
+}
+

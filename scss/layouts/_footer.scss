@@ -1,0 +1,98 @@
+.footer {
+  position: relative;
+  padding: 32px 0;
+  background-image: url('../images/footer-background.png');
+  background-color: var(--primary-dark-color);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  &::before,
+  &::after {
+    position: absolute;
+    bottom: 0;
+    content: '';
+    background-repeat: no-repeat;
+  }
+
+  &::before {
+    left: 0 ;
+    width: 180px;
+    height: 120px;
+    background-image: url('../images/footer-bread-left-desktop.png');
+  }
+
+  &::after {
+    right: 0;
+    width: 380px;
+    height: 190px;
+    background-image: url('../images/footer-bread-right-desktop.png');
+  }
+
+  &__container {
+    display: flex;
+    gap: 28px;
+  }
+
+  &__nav,
+  &__address {
+    display: flex;
+    gap: 28px;
+    flex-basis: 50%;
+  }
+
+  &__logo,
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex-basis: 50%;
+  }
+
+  &__address-list,
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex-basis: 50%;
+  }
+  
+  &__address-link {
+    font-size: 16px;
+    font-weight: 300;     
+    color: var(--primary-light-color);
+    text-decoration: none;
+  }
+
+  &__address-link:hover,
+  &__address-link:focus {
+    color: var(--brand-normal-color);
+  }
+
+  &__social {
+    display: flex;
+    gap: 22px;
+  }
+
+  &__social-icon {
+    fill: var(--primary-light-color);
+  }
+
+  &__social-icon:hover,
+  &__social-icon:focus {
+    fill: var(--brand-normal-color);
+  }
+
+  &__address-copyright {
+    font-size: 14px;
+    color: var(--bakery-landing-14, var(--secondary-dark-color));
+  }
+}
+
+
+
+
+
+
+
+

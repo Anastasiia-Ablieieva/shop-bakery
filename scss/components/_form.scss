@@ -1,0 +1,28 @@
+.form {
+    &__title {
+        font-size: 64px;
+        font-weight: 900;
+        text-align: center;
+        margin: 0 0 8px;
+    }
+
+    &__text {
+        color: var(--brand-dark-color);
+        margin: 0 0 72px;
+        text-align: center;
+    }
+
+    &__field {
+        position: relative;
+        margin-bottom: 32px;
+    }
+    
+    &__button {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 24px;
+    }
+}
+
+
+
